@@ -1,4 +1,4 @@
-const factUrl = "/api/v2/facts/today";
+const factUrl = "https://uselessfacts.jsph.pl/api/v2/facts/today";
 const factElem = document.getElementById("fact");
 
 fetch(factUrl)
